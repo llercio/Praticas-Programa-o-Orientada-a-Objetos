@@ -1,4 +1,4 @@
-public class Main {
+public class MainProduto {
     static void main() {
         Produto gabinete = new Produto();
         gabinete.setNome("Gabinete");
@@ -7,6 +7,5 @@ public class Main {
         gabinete.fichaProduto();
         gabinete.aplicarDesconto(20);
         System.out.println("Valor do produto com 20% de desconto: " + gabinete.getPreco());
-
     }
 }
